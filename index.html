@@ -892,6 +892,10 @@
   <script src="js/scrollax.min.js"></script>
   
   <script src="js/main.js"></script>
-    
+  <script>
+    $("#ftco-nav a:not(.dropdown-toggle)").click(function() {
+      $("#ftco-nav").collapse("hide");
+    });
+  </script>
   </body>
 </html>
